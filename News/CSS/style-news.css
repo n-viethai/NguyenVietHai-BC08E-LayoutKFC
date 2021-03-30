@@ -1,0 +1,45 @@
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #808080;
+    padding-top: 16px;
+}
+
+.news{
+    width: 60%;
+    background-color: #fff;
+    margin-top: 24px;
+}
+
+.news__header{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 32px;
+    color: #A52A2A;
+}
+
+.news__content p {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin: 24px 0;
+}
+
+.news__content-list{
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-left: 40px;
+}
+
+.news__content-img{
+    width: 100%;
+}
